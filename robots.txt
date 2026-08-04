@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://daichi1207.github.io/sitemap.xml
+Sitemap: https://snkk62.github.io/sitemap.xml

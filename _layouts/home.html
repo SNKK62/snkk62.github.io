@@ -8,13 +8,11 @@ layout: minimal
 
 <h1>{{ site.author.name }}</h1>
 <p class="affil">
-  Ph.D. Student, {{ site.author.employer }}<br>
-  JSPS Research Fellow (DC1)
+  First-year Master's Student, {{ site.author.employer }}
 </p>
 <p class="header-links">
-  <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> &middot;
-  {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Google Scholar</a> &middot;{% endif %}
-  <a href="{{ base_path }}/files/cv.pdf">CV (PDF)</a>
+  <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+  {% if site.author.googlescholar %} &middot; <a href="{{ site.author.googlescholar }}">Google Scholar</a>{% endif %}
 </p>
 
 {{ content }}

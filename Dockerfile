@@ -21,8 +21,10 @@ RUN chown -R vscode:vscode /usr/src/app
 # Switch to the non-root user
 USER vscode
 
-# Copy Gemfile into the container (necessary for `bundle install`)
-COPY Gemfile ./
+# Copy Gemfile with ownership matching the non-root build user. The source file
+# may not be world-readable on the host, so a plain COPY can leave it
+# unreadable after USER vscode.
+COPY --chown=vscode:vscode Gemfile ./
 
 
 
@@ -33,4 +35,3 @@ RUN bundle install
 
 # Command to serve the Jekyll site
 CMD ["jekyll", "serve", "-H", "0.0.0.0", "-w"]
-

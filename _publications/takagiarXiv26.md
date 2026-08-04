@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/takagiarXiv26
 excerpt: 'We propose AnoleVLA, a lightweight VLA that uses a deep state space model to process multimodal sequences efficiently, outperforming a representative large-scale VLA by 21 points in task success rate while achieving approximately three times faster inference.'
 thumbnail: 'takagiarxiv26.png'
-authors: 'Y. Takagi, M. Kambara, <b><u>D. Yashima</u></b>, K. Seno, K. Tokura, and K. Sugiura'
+authors: 'Y. Takagi, M. Kambara, D. Yashima, <b><u>K. Seno</u></b>, K. Tokura, and K. Sugiura'
 date: 2026-03-16
 venue: 'Preprint'
 paperurl: 'https://arxiv.org/abs/2603.15046'

@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/senoarXiv26
 excerpt: 'We propose a cross-embodiment framework that treats robot velocity fields as probability flows, modeling them continuously rather than as sparse keypoint displacements, achieving approximately 33x faster generation and higher success rates across real-world manipulation tasks.'
 thumbnail: 'seno26arxiv.png'
-authors: 'K. Seno, <b><u>D. Yashima</u></b>, Y. Takagi, K. Tokura, and K. Sugiura'
+authors: '<b><u>K. Seno</u></b>, D. Yashima, Y. Takagi, K. Tokura, and K. Sugiura'
 date: 2026-06-22
 venue: 'Preprint'
 paperurl: 'https://arxiv.org/abs/2606.23090'
