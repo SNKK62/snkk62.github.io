@@ -61,14 +61,6 @@ I am a first-year Master's student in Human and Social Systems Information Scien
 {% endif %}
 {% endfor %}
 
-<h2 id="theses">Theses</h2>
-
-{% for post in all_pubs %}
-{% if post.category == "theses" %}
-{% include publication-entry.html post=post %}
-{% endif %}
-{% endfor %}
-
 <h2 id="awards">Awards</h2>
 
 {% assign awards = site.data.awards | sort: "date" | reverse %}
