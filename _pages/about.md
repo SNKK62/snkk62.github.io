@@ -27,7 +27,7 @@ I am a first-year Master's student in Human and Social Systems Information Scien
 <div class="news">
 <ul>
   <li><span class="date">2026/09</span> Two papers were accepted to CoRL 2026.</li>
-  <li><span class="date">2026/09</span> Received the Excellent Presentation Award and, with my coauthors, the Excellent Research and Technology Award from the Robotics Society of Japan. <a href="#awards">Details</a></li>
+  <li><span class="date">2026/09</span> Received two awards at RSJ 2026.</li>
   <li><span class="date">2026/06</span> Two papers were accepted to IROS 2026.</li>
   <li><span class="date">2026/06</span> Our paper "Flow as Flow" is out!</li>
   <li><span class="date">2026/03</span> A paper was accepted to IEEE RA-L.</li>
