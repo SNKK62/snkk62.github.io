@@ -10,11 +10,12 @@
 <div class="pub-title">{{ pub_title }}</div>
 {% if pub.authors %}<div class="pub-authors">{{ pub.authors }}</div>{% endif %}
 {% if pub.venue %}<div class="pub-venue"><em>{{ pub.venue }}</em>{% if pub.venue_info %} ({{ pub.venue_info }}){% endif %}</div>{% endif %}
-{% if pub.paperurl or pub.projecturl or pub.codeurl %}
+{% if pub.paperurl or pub.projecturl or pub.codeurl or pub.doiurl %}
 <div class="pub-links">
 {% if pub.paperurl %}<a href="{{ pub.paperurl }}">[paper]</a>{% endif %}
 {% if pub.projecturl %}<a href="{{ pub.projecturl }}">[project]</a>{% endif %}
 {% if pub.codeurl %}<a href="{{ pub.codeurl }}">[code]</a>{% endif %}
+{% if pub.doiurl %}<a href="{{ pub.doiurl }}">[doi]</a>{% endif %}
 </div>
 {% endif %}
 </div>

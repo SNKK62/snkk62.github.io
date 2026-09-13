@@ -2,7 +2,7 @@
 permalink: /
 layout: home
 title: "Koki Seno"
-seo_title: "Koki Seno"
+seo_title: "Koki Seno | Robot Learning | Keio University"
 description: "Koki Seno is a first-year Master's student at Keio University researching robot learning, learning from human videos, and generative models."
 excerpt: "Koki Seno is a first-year Master's student at Keio University researching robot learning, learning from human videos, and generative models."
 author_profile: false
@@ -26,6 +26,8 @@ I am a first-year Master's student in Human and Social Systems Information Scien
 <h2 id="news">News</h2>
 <div class="news">
 <ul>
+  <li><span class="date">2026/09</span> Two papers were accepted to CoRL 2026.</li>
+  <li><span class="date">2026/09</span> Received the Excellent Presentation Award and, with my coauthors, the Excellent Research and Technology Award from the Robotics Society of Japan. <a href="#awards">Details</a></li>
   <li><span class="date">2026/06</span> Two papers were accepted to IROS 2026.</li>
   <li><span class="date">2026/06</span> Our paper "Flow as Flow" is out!</li>
   <li><span class="date">2026/03</span> A paper was accepted to IEEE RA-L.</li>
@@ -37,10 +39,19 @@ I am a first-year Master's student in Human and Social Systems Information Scien
 {% include base_path %}
 {% assign all_pubs = site.publications | sort: "date" | reverse %}
 {% for post in all_pubs %}
-{% unless post.category == "domestic" %}
+{% if post.category == "manuscripts" %}
 {% include publication-entry.html post=post %}
-{% endunless %}
+{% endif %}
 {% endfor %}
+
+{% assign preprints = all_pubs | where: "category", "preprints" %}
+{% if preprints.size > 0 %}
+<h2 id="preprints">Preprints</h2>
+
+{% for post in preprints %}
+{% include publication-entry.html post=post %}
+{% endfor %}
+{% endif %}
 
 <h2 id="domestic-conferences">Domestic Conferences</h2>
 
@@ -48,4 +59,25 @@ I am a first-year Master's student in Human and Social Systems Information Scien
 {% if post.category == "domestic" %}
 {% include publication-entry.html post=post %}
 {% endif %}
+{% endfor %}
+
+<h2 id="theses">Theses</h2>
+
+{% for post in all_pubs %}
+{% if post.category == "theses" %}
+{% include publication-entry.html post=post %}
+{% endif %}
+{% endfor %}
+
+<h2 id="awards">Awards</h2>
+
+{% assign awards = site.data.awards | sort: "date" | reverse %}
+{% for award in awards %}
+<div class="pub">
+<div class="pub-body">
+<div class="pub-title">{{ award.title | escape }}</div>
+<div class="pub-authors">{{ award.recipients }}</div>
+<div class="pub-venue"><em>{{ award.venue | escape }}</em>, <time datetime="{{ award.date | date: '%Y-%m-%d' }}">{{ award.date | date: '%-d %B %Y' }}</time></div>
+</div>
+</div>
 {% endfor %}

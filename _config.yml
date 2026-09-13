@@ -80,6 +80,8 @@ author:
 publication_category:
   # books:
   #   title: 'Books'
+  preprints:
+    title: 'Preprints'
   manuscripts:
     title: ''    
   # conferences:
@@ -124,6 +126,8 @@ atom_feed:
 
 
 # SEO Related
+# Search Console uses /googlee8021cef0758011b.html for HTML-file verification.
+# Keep that file unchanged after verification; the field below is for HTML-tag verification only.
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :

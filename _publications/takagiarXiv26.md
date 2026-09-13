@@ -1,7 +1,7 @@
 ---
 title: "AnoleVLA: Lightweight Vision-Language-Action Model with Deep State Space Models for Mobile Manipulation"
 collection: publications
-category: manuscripts
+category: preprints
 permalink: /publication/takagiarXiv26
 excerpt: 'We propose AnoleVLA, a lightweight VLA that uses a deep state space model to process multimodal sequences efficiently, outperforming a representative large-scale VLA by 21 points in task success rate while achieving approximately three times faster inference.'
 thumbnail: 'takagiarxiv26.png'

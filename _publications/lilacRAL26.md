@@ -8,5 +8,7 @@ authors: 'M. Kambara, <b><u>K. Seno</u></b>, T. Kaichi, Y. Wang, and K. Sugiura'
 date: 2026-03-26
 venue: 'IEEE Robotics and Automation Letters, Vol. 11, Issue 6, pp. 6767–6774, 2026'
 paperurl: 'https://arxiv.org/abs/2603.25481'
+doiurl: 'https://doi.org/10.1109/LRA.2026.3682441'
+sourceurl: 'https://smilab.org/en/publications/'
 projecturl: 'https://lilac-75srg.kinsta.page/'
 ---
