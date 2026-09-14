@@ -8,14 +8,14 @@ thumbnail: 'seno26arxiv.png'
 authors: '<b><u>K. Seno</u></b>, D. Yashima, Y. Takagi, K. Tokura, and K. Sugiura'
 # Month-level sort date for the CoRL acceptance update.
 date: 2026-09-01
-venue: 'Conference on Robot Learning (CoRL), 2026, to appear'
+venue: 'CoRL, 2026'
 venue_info: 'Acceptance Rate: 32.8%'
 sourceurl: 'https://smilab.org/en/publications/'
 paperurl: 'https://arxiv.org/abs/2606.23090'
 projecturl: 'https://flow-as-flow-u0n5y.kinsta.page/'
 # codeurl: ''
 # blogposturl: ''
-citation: 'K. Seno, D. Yashima, Y. Takagi, K. Tokura, and K. Sugiura, "Flow as Flow: Modeling Robot Velocity Fields as Probability Velocity Fields for Flow-Based Object Manipulation", Conference on Robot Learning (CoRL), 2026, to appear.'
+citation: 'K. Seno, D. Yashima, Y. Takagi, K. Tokura, and K. Sugiura, "Flow as Flow: Modeling Robot Velocity Fields as Probability Velocity Fields for Flow-Based Object Manipulation", Conference on Robot Learning (CoRL), 2026.'
 ---
 
 We address cross-embodiment robotic foundation models by proposing a framework that treats robot velocity fields as probability flows. Unlike prior work that models velocity fields as sparse keypoint displacements, our approach models them continuously. The method achieves approximately 33x faster generation speeds and superior performance on standard benchmarks. In real-world validation across 13 manipulation tasks with 260 trials per method, our approach achieves higher success rates than competing baselines.
